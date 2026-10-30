@@ -1,0 +1,74 @@
+/* ===============================
+   GLOBAL RESET
+================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===============================
+   HTML SETTINGS
+================================ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ===============================
+   BODY SETTINGS
+================================ */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #202033;
+    overflow-x: hidden;
+}
+
+/* ===============================
+   BUTTON SETTINGS
+================================ */
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+/* ===============================
+   LINK SETTINGS
+================================ */
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* ===============================
+   IMAGE SETTINGS
+================================ */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ===============================
+   FORM SETTINGS
+================================ */
+
+input,
+textarea,
+select {
+    font-family: inherit;
+}
+
+/* ===============================
+   SELECTION COLOR
+================================ */
+
+::selection {
+    background-color: #7654e8;
+    color: #ffffff;
+}
